@@ -6,6 +6,7 @@ import StackCadastro from '../screens/Cadastro/StackCad'
 import StackPecas from '../screens/Pecas/StackPecas'
 import StackProblemas from '../screens/Problemas/StackProblemas'
 import StackPedidos from '../screens/Pedidos/StackPedidos'
+import StackCurso from '../screens/Curso/StackCurso'
 const Drawer = createDrawerNavigator()
 
 export default function DrawerRoutes() {
@@ -16,6 +17,7 @@ export default function DrawerRoutes() {
             <Drawer.Screen name="Peças" component={StackPecas}/>
             <Drawer.Screen name="Problemas" component={StackProblemas} />
             <Drawer.Screen name="Pedidos" component={StackPedidos} />
+            <Drawer.Screen name="Cursos" component={StackCurso} />
             
 
         </Drawer.Navigator>
